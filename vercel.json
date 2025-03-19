@@ -1,14 +1,8 @@
 {
     "version": 2,
     "functions": {
-        "api/bot.py": {
-            "runtime": "python3.9"
+        "bot.py": {
+            "runtime": "python3.12" 
         }
-    },
-    "routes": [
-        {
-            "src": "/api/bot",
-            "dest": "api/bot.py"
-        }
-    ]
+    }
 }
